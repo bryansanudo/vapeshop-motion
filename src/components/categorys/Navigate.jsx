@@ -1,9 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { GiSkirt } from "react-icons/gi";
-import { IoHome } from "react-icons/io5";
-
-import logoVoufit from "@/assets/logoVoufit.jpg";
 
 const Navigate = () => {
   return (

@@ -7,10 +7,10 @@ import Footer from "@/components/Footer";
 
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-import GreenLine from "@/components/categorys/GreenLine";
-import PinkLine from "@/components/categorys/PinkLine";
-import BlueLine from "@/components/categorys/BlueLine";
-import PurpleLine from "@/components/categorys/PurpleLine";
+import Product1 from "@/components/categorys/Product1";
+import Product2 from "@/components/categorys/Product2";
+import Product3 from "@/components/categorys/Product3";
+import Product4 from "@/components/categorys/Product4";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,10 +23,10 @@ function App() {
         <Hero />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<PinkLine />} />
-            <Route path="/producto1" element={<GreenLine />} />
-            <Route path="/producto2" element={<BlueLine />} />
-            <Route path="/producto3" element={<PurpleLine />} />
+            <Route path="/" element={<Product1 />} />
+            <Route path="/product2" element={<Product2 />} />
+            <Route path="/product3" element={<Product3 />} />
+            <Route path="/product4" element={<Product4 />} />
           </Routes>
         </BrowserRouter>
 

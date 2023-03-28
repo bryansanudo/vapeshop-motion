@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="flex items-center justify-center lg:justify-between flex-wrap gap-4 ">
             <TypingText
               title="Eliana Caro Suaza"
-              textStyles="font-bold text-4xl my-8 text-center text-transparent bg-clip-text  bg-gradient-to-r from-[#29A52D] to-[#5C24B3] hover:from-[#5C24B3] hover:to-[#29A52D] transition duration-500 ease-in-out transform   md:text-5xl"
+              textStyles="font-bold text-4xl my-8 text-center text-transparent bg-clip-text  bg-gradient-to-r from-[#6057ca] to-[#CA6057] hover:from-[#CA6057] hover:to-[#6057ca] transition duration-500 ease-in-out transform   md:text-5xl"
             />
             <div className="flex items-center justify-center flex-wrap gap-5">
               <button type="button" onClick={useScroll}>

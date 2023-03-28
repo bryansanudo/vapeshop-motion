@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaTiktok, FaInstagram, FaFacebook } from "react-icons/fa";
 
 import { motion } from "framer-motion";
 
@@ -10,18 +10,18 @@ const Contact = () => {
   const SOCIAL = [
     {
       id: 1,
-      link: "https://twitter.com",
-      icon: <FaGithub />,
+      link: "https://www.instagram.com/elianacaro12/",
+      icon: <FaInstagram />,
     },
     {
       id: 2,
       link: "https://facebook.com",
-      icon: <FaInstagram />,
+      icon: <FaFacebook />,
     },
     {
       id: 3,
-      link: "https://linkedin.com",
-      icon: <FaLinkedin />,
+      link: "https://tiktok.com",
+      icon: <FaTiktok />,
     },
   ];
 
@@ -32,9 +32,9 @@ const Contact = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
     >
-      <div className="flex flex-col items-center justify-center gap-8 text-center  bg-gradient-to-r from-[#29A52D] to-[#5C24B3] text-white py-2 rounded-lg mb-10 shadow-xl shadow-gray-600">
+      <div className="flex flex-col items-center justify-center gap-8 text-center  bg-gradient-to-r from-[#6057ca] to-[#CA6057] text-white py-2 rounded-lg mb-10 shadow-xl shadow-gray-600">
         <motion.div
-          variants={fadeIn("right", "tween", 0.5, 1)}
+          variants={fadeIn("right", "tween", 2, 1.5)}
           className="flex w-full items-center justify-evenly text-3xl"
         >
           {SOCIAL.map(({ id, link, icon }) => (

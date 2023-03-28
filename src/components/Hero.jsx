@@ -50,7 +50,7 @@ const Hero = () => {
           muted
           type="video/mp4"
           playsInline
-          className="h-[300px] w-full  object-cover   rounded-xl shadow-xl shadow-gray-600"
+          className="h-[300px] w-[220px]  object-cover   rounded-xl shadow-xl shadow-gray-600"
         />
       </motion.div>
 

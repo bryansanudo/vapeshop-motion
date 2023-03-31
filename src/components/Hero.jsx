@@ -22,7 +22,7 @@ const Hero = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="min-h-screen flex flex-col justify-start items-center text-center "
+      className="min-h-screen flex flex-col justify-start items-center text-cente pt-[150px] "
     >
       <TypingText
         title="VAPING SHOP"

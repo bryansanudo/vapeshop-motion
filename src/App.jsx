@@ -11,7 +11,6 @@ import Product1 from "@/components/categorys/Product1";
 import Product2 from "@/components/categorys/Product2";
 import Product3 from "@/components/categorys/Product3";
 import Product4 from "@/components/categorys/Product4";
-import ProductList from "@/components/productList";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
